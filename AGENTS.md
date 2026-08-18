@@ -1,6 +1,6 @@
 # FoodTruckNerdz org overlay
 
-Shared rules and Cursor skills live in **dev-centr/agent-rules**. This repo is the org overlay only â€” it does not vendor a snapshot.
+Shared rules and Cursor skills live in **dev-centr/agent-rules**. This repo is the org overlay only - it does not vendor a snapshot.
 
 When assembling context for this org's repos, resolve:
 

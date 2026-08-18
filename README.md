@@ -1,15 +1,16 @@
 # agent-rules (FoodTruckNerdz)
 
-This repository is the org-facing wrapper for shared agent rules.
+Org overlay for agent rules. Shared portable rules and Cursor skills are **not** copied here â€” a git submodule would pin a SHA and go stale.
+
+Canonical: https://github.com/dev-centr/agent-rules
+
+Clone or fetch that repo (`$CODE_ROOT/github.com/dev-centr/agent-rules`). Junction skills from there into `~/.cursor/skills/<name>/`.
 
 ## Layout
 
-- `template/` â€” git submodule to `dev-centr/agent-rules` (canonical source)
-- `AGENTS.md` â€” this org's thin overlay and entrypoint
+- `AGENTS.md` â€” this org's overlay (ORG, docs host, forge quirks)
 
 ## Contribution flow
 
 - Org-specific guidance: commit in this repo
-- Shared portable rules/skills: commit in `template/` and open a PR upstream to `dev-centr/agent-rules`
-
-Do not copy the template tree into this repository.
+- Shared rules/skills: PR https://github.com/dev-centr/agent-rules

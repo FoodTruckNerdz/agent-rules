@@ -1,10 +1,10 @@
 # FoodTruckNerdz org overlay
 
-Primary rules source is `template/` (submodule to `dev-centr/agent-rules`).
-
-Use this file only for org-specific overrides that should not apply globally.
+Shared rules and Cursor skills live in **dev-centr/agent-rules**. This repo is the org overlay only â€” it does not vendor a snapshot.
 
 When assembling context for this org's repos, resolve:
 
-- `AGENT_RULES_PATH` = `template/` inside this wrapper (or the org clone path)
+- `AGENT_RULES_PATH` = `$CODE_ROOT/github.com/dev-centr/agent-rules`
 - Org overlay = this `AGENTS.md`
+
+Shared changes: PR `dev-centr/agent-rules`. Org-only: commit here.
